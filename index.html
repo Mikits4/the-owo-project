@@ -24,6 +24,34 @@
 
         let betterText = text;
         betterText = betterText
+        .replaceAll(/\bthe\b/gi, "da")
+        .replaceAll(/\bThe\b/gi, "Da")
+        .replaceAll(/\blove\b/gi, "wuv")
+        .replaceAll(/\bLove\b/gi, "Wuv")
+        .replaceAll(/\bdog\b/gi, "doggo")
+        .replaceAll(/\bDog\b/gi, "Doggo")
+        .replaceAll(/\bcat\b/gi, "kitteh")
+        .replaceAll(/\bCat\b/gi, "Kitteh")
+        .replaceAll(/\bhello\b/gi, "henwo")
+        .replaceAll(/\bHello\b/gi, "Henwo")
+        .replaceAll(/\bheck\b/gi, "heck")
+        .replaceAll(/\bHell\b/gi, "Heck")
+        .replaceAll(/\bfuck\b/gi, "fwick")
+        .replaceAll(/\bFuck\b/gi, "Frick")
+        .replaceAll(/\bshit\b/gi, "shoot")
+        .replaceAll(/\bShit\b/gi, "Shoot")
+        .replaceAll(/\bfriend\b/gi, "fwend")
+        .replaceAll(/\bFriend\b/gi, "Fwend")
+        .replaceAll(/\bstop\b/gi, "stawp")
+        .replaceAll(/\bStop\b/gi, "Stawp")
+        .replaceAll(/\bgod\b/gi, "gosh")
+        .replaceAll(/\bGod\b/gi, "Gosh")
+        .replaceAll(/\bdick\b/gi, "peepee")
+        .replaceAll(/\bDick\b/gi, "Peepee")
+        .replaceAll(/\bpenis\b/gi, "peepee")
+        .replaceAll(/\bPenis\b/gi, "Peepee")
+        .replaceAll(/\bdamn\b/gi, "darn")
+        .replaceAll(/\bDamn\b/gi, "Darn")
         .replaceAll(/l/gi, "w")
         .replaceAll(/L/gi, "W")
         .replaceAll(/r/gi, "w")
@@ -32,9 +60,7 @@
         .replaceAll(/have/gi, "haz")
         .replaceAll(/Have/gi, "Haz")
         .replaceAll(/has/gi, "haz")
-        .replaceAll(/Has/gi, "Haz")
-        .replaceAll(/\bthe\b/gi, "da")
-        .replaceAll(/\bThe\b/gi, "Da");
+        .replaceAll(/Has/gi, "Haz");      
       
         return betterText;
       }
@@ -126,4 +152,5 @@
   </body>
 
 </html>
+
 
